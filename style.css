@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+.navbar{
+  background-color: #fff;
+  position: sticky;
+  top:0;
+  cursor: pointer;
+  background: none;
+  }
+
+ 
+.navbar ul li{
+  color:#fff;
+}
+.navbar ul li a{
+  color:#fff
+}
+.navbar-collapse li{
+  color:#444;
+}
+
+
+.navbar ul li a:hover{
+color:#999;
+background-color: #fff;
+}
+
+.navbar-v .nav-item .dropdown-menu ul li a:hover{
+  color: #fff;
+}
+
+
+body{
+    /* background-color:rgb(105, 102, 102); */
+    background: url("./img/Untitled\ design\ \(3\).jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+   
+    
+  }
+  .fa-question-circle{
+    color: #2777ff;
+  }
+.heading{
+  margin:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion{
+  width:60%;
+  margin:auto;
+  }
+.accordion-header{
+  color:#f1f1f1
+}
+
+.faq img{
+  width: 250px;height:250px;
+}
+.btn{
+ 
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #333;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  
+}
+
+.btn:hover{
+  opacity: .7;
+  color: #fff;
+}
+
+.accordion-item, .accordion-button, .accordion table{
+  background-color: #333;
+  color: #fff;
+}
+.accordion-body{
+  background-color: #555;
+}
+
+.footer{
+  color: #fff;
+  padding: 20px;
+  
+}
+.footer li{
+  list-style: none;
+  margin: 5px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 5px 5px 15px #111;
+}
+
+footer ul li a:hover{
+color:#444;
+text-shadow: none;
+}
+.right{
+  text-shadow: 0px 0px 0px #555;
+}
+.social-media a{
+ color:#fff;
+ text-shadow: 5px 5px 15px #111;
+ font-size: 20px;
+ margin: 0 5px;
+}
+.social-media a:hover{
+  color:#555;
+}
+.text{
+  font-size: 15px;
+  margin: 3px;
+  text-shadow: 5px 5px 15px #111;;
+}
+
+@media(max-width:600px){
+  .accordion{
+    width:100%;
+  }
+  .heading{
+    text-align:center;
+  }
+  .faq{
+    width:57%;
+  }
+  .faq img{
+    margin: 0 -60px;
+
+  }
+}
+
+
+@media(max-width:778px){
+.accordion{
+  width:100%;
+}
+.heading h2{
+  text-align:center;
+}
+.navbar ul li a{
+  color:#111
+}
+.right{
+margin-top: 10px;
+}
+.social-media , .text{
+  margin-left: 12px;
+  line-height: 15px;
+}
+.text{
+  margin-top: 15px;
+}
+}
+
+
+
+
+
